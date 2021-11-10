@@ -11,16 +11,4 @@ def solve(dep):
     
     print (k[v.index(max(v))], max(v))
 
-
-
-
-
-
-
-
-
-
-
-
-
 solve(["Matematicas","Lengua","Ingles","E.F.", "Lengua"])
