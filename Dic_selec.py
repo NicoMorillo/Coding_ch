@@ -5,7 +5,6 @@ def solve(dep):
     for i in dep:
         dic[i] += 1
 
-
     v = list(dic.values())
     k = list(dic.keys())
     
