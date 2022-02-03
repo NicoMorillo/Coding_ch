@@ -15,3 +15,17 @@ while len(lista) != 0:
   lista1.append(lista2)
   z = " ".join(lista1)
   print(z)
+
+
+
+
+int= "abcdefghijklmnopqrstuvwxyz"
+ont="cdefghijklmnopqrstuvwxyzab"
+
+sre = str.maketrans(int, ont)
+sri= str.maketrans(abc)
+
+str = "g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj."
+
+print(str.translate(sre))
+print(str.translate(sri))
