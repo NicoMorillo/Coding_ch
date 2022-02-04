@@ -1,6 +1,10 @@
 
-stra = "abcdddffff0ffffd"
+stra = "abcdddffffffffd"
+
+asd = {}
 
 for x in stra:
     total = stra.count(x)
-    print ("Hay {} de {}".format(total, x))
+    asd[x]= asd.get(x,0) + 1
+
+print(asd)
